@@ -314,8 +314,13 @@ img {
 }
 
 .home__blob-img {
-  
-  width: 200px;
+  margin-left: 150px;
+  border-radius: 60px ;
+  width: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 10px solid rgba(0, 0, 0, 0);
+
 }
 
 .home__data {
