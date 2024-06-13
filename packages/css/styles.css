@@ -839,15 +839,67 @@ img {
 .contact__input {
   width: 100%;
   border-radius: 10px;
-  background-color: var(--input-color);
+  /* background-color: var(--input-color);
   background-color: rgb(174, 174, 174);
   color: black;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   border: none;
-  outline: none;
+  outline: none; */
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
+
+.contact__input2{
+  position: relative;
+ 
+  width: 100%;
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.contact__label3{
+  position: relative;
+  margin-bottom: 1000px;
+}
+
+
+#input-group{
+  position: relative;
+}
+
+#input{
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #000000c5;
+}
+
+#placeholder{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  padding: 0px 5px;
+  color: #666;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+
+
+
+#input:focus + #placeholder{
+  top: -0.5px;
+  color: #04AA6D;
+  background-color: #fff;
+}
+
+
+
+
+
 
 /*==================== FOOTER ====================*/
 .footer {
