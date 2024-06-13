@@ -279,9 +279,13 @@ img {
 
 .home__container {
   gap: 1rem;
+  margin-top: 13px;
+  
+  
 }
 
 .home__content {
+ 
   grid-template-columns: 0.5fr 3fr;
   padding-top: 3.5rem;
   align-items: center;
@@ -305,10 +309,13 @@ img {
 .home__blob {
   width: 200px;
   fill: var(--first-color);
+  
+  
 }
 
 .home__blob-img {
-  width: 220px;
+  
+  width: 200px;
 }
 
 .home__data {
@@ -533,7 +540,7 @@ img {
 }
 
 .skills__python {
-  width: 60%;
+  width: 90%;
 }
 
 .skills__tab {
@@ -541,7 +548,7 @@ img {
 }
 
 .skills__sql {
-  width: 50%;
+  width: 80%;
 }
 
 .skills__google {
@@ -666,7 +673,17 @@ img {
   transition: 0.3s;
 }
 
+#img11{
+  background-color: #3d4272;
+  color: red;
+}
+
+#img12{
+  background-color: #6a6a6b;
+}
+
 .services__content:hover {
+  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -821,8 +838,10 @@ img {
 
 .contact__input {
   width: 100%;
+  border-radius: 10px;
   background-color: var(--input-color);
-  color: var(--text-color);
+  background-color: rgb(174, 174, 174);
+  color: black;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   border: none;
@@ -840,7 +859,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: rgb(63, 63, 63);
   padding: 2rem 0 3rem;
 }
 
